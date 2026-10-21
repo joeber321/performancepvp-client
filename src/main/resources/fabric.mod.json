@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "performancepvpclient",
+  "version": "${version}",
+  "name": "PerformancePvP Client",
+  "description": "A clean, legitimate performance and utility client for Fabric.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.performancepvp.PerformancePvP"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.1"
+  }
+}
